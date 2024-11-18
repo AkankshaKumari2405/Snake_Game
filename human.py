@@ -92,7 +92,7 @@ while True:
                     next_direction = 'down'
                 elif event.key == pygame.K_LEFT and direction != 'right':
                     next_direction = 'left'
-                elif event.key == pygame.K_RIGHT and directino != 'left':
+                elif event.key == pygame.K_RIGHT and direction != 'left':
                     next_direction = 'right'
         direction = next_direction
         head_x, head_y = snake[0]
